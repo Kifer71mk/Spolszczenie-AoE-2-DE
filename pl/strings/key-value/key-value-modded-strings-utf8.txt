@@ -10,6 +10,3 @@
 //If you would like to modify an existing string, copy only
 //the strings you wish to modify into this file, and do not
 //delete them from the original file.
-
-
-
