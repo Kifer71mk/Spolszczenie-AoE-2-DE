@@ -1,2 +1,9 @@
 Wersja testowa polskiej czcionki dla AoE 2 DE.
 Nie wszystko jeszcze działa, więc używaj ostrożnie.
+
+1. Pobierz repozytorium i rozpakuj archiwum zip.
+2. Wykonaj kopię folderów:
+	- c:\Program Files (x86)\Steam\steamapps\common\AoE2DE\resources\_common\fonts
+	- c:\Program Files (x86)\Steam\steamapps\common\AoE2DE\resources\_common\wpfg\fonts
+3. Mając uprawnienia administratora skopiuj folder "resources" z rozpakowanego archiwum do "c:\Program Files (x86)\Steam\steamapps\common\AoE2DE" potwierdzając nadpisanie plików.
+4. Jeśli coś poszło nie tak, przywróć pliki z wykonanej wcześniej kopii. Możesz też usunąć całkowicie zawartość folderów z pkt 2 i przy pomocy klienta Steam sprawdzić spójność plików gry.
