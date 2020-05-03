@@ -1,4 +1,4 @@
-![logo pl](https://raw.githubusercontent.com/Kifer71mk/Spolszczenie-AoE-2-DE/Kifer71mk/flaga_w_logo/resources/_common/wpfg/resources/aoe_logo.png)
+![logo pl](https://raw.githubusercontent.com/Kifer71mk/Spolszczenie-AoE-2-DE/Kifer71mk/flaga_w_logo/resources/_common/wpfg/resources/aoe_logo.png) # Spolszczenie-AoE-2-DE
 #
 # Spolszczenie-AoE-2-DE
 
