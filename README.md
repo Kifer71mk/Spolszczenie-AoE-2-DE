@@ -9,4 +9,4 @@ Folder /en: pliki źródłowe w języku angielskim.
 Folder /pl: Tu znajdą się przetłumaczone pliki.
 
 
-[GitHub Pages](https://pages.github.com/)
+[Tu będzie wiki](https://github.com/Kifer71mk/Spolszczenie-AoE-2-DE/wiki)
