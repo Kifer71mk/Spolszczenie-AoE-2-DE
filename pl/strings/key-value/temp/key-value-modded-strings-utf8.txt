@@ -2365,7 +2365,6 @@
 8895 "Ustawienia graficzne"
 8896 "Klawisze skrótu modyfikatora wyboru"
 8897 "Przełączanie Grupy"
-
 9001 "Gra Zatrzymana"
 9002 "Wybierz Obiekt"
 9003 "Wybierz Teren"
@@ -12798,24 +12797,24 @@ RL_AUTOMATCH_WAITING_TO_START "Oczekiwanie na rozpoczęcie meczu..."
 200014 "Obserwator"
 200015 "Oszustwa"
 200016 "Modyfikacja Danych"
-200017 "Obserwatorzy"
-200018 "Tryb Gry:"
-200019 "Szybkość Gry:"
-200020 "Zwycięstwo:"
-200021 "Styl Mapy:"
-200022 "Obserwowane Gry"
-200023 "Obserwuj Grę"
-200024 "Przeglądarka Obserwowanych"
-200025 "Opcje Gry"
-200026 "Opcje Drużyn"
-200027 "Zaawansowane Opcje"
-200028 "Tworzenie Lobby..."
-200029 "Dołącznie do Lobby..."
-200030 "Lubię"
-200031 "Nie Lubię"
-200032 "Pliki Modyfikacji"
+200017 "Spectators"
+200018 "Game Mode:"
+200019 "Game Speed:"
+200020 "Victory:"
+200021 "Map Style:"
+200022 "Spectate Games"
+200023 "Spectate Game"
+200024 "Spectator Browser"
+200025 "Game Settings"
+200026 "Team Settings"
+200027 "Advanced Settings"
+200028 "Creating Lobby..."
+200029 "Joining Lobby..."
+200030 "Like"
+200031 "Unlike"
+200032 "Mod Files"
 200033 "(None)"
-200034 "Odnów Grę Sieciową"
+200034 "Restore MP Game"
 
 200035 "Obecny Skrót Klawiszowy"
 200036 "Edytuj Wybrany Skrót"
@@ -12891,7 +12890,7 @@ IDS_OPTIONS_SANS_HELP_TEXT "Przełącza czcionkę w całej grze na czcionkę bez
 IDS_OPTIONS_IN_GAME "Interfejs w Grze"
 IDS_OPTIONS_COLOR "Kolor"
 IDS_OPTIONS_SLASH_TAUNTS "/Drwina"
-IDS_OPTIONS_SLASH_TAUNTS_HELP_TEXT "Kiedy opcja /Drwina jeśli jest włączona, należy wpisać \ "/ \" przed liczbą w celu aktywacji drwiny. Pozwala to na wpisywanie liczb bez aktywowania drwin"
+IDS_OPTIONS_SLASH_TAUNTS_HELP_TEXT "Kiedy opcja /Drwina jeśli jest włączona, należy wpisać \"/\" przed liczbą w celu aktywacji drwiny. Pozwala to na wpisywanie liczb bez aktywowania drwin"
 IDS_OPTIONS_TAUNT_TEXT "Tekst Drwin"
 IDS_OPTIONS_TAUNT_TEXT_HELP_TEXT "Wybierz, aby wyświetlać nazwę drwiny jako tekst obok numeru na czacie za każdym razem, gdy drwina jest aktywowana"
 IDS_OPTIONS_GRAPHICS "Grafika"
@@ -13167,6 +13166,7 @@ IDS_MODMGR_FILTER_SUBSCRIBED_ROLLOVER "Wyświetl mody, które subskrybujesz, nie
 IDS_MODMGR_FILTER_LEGACY_ROLLOVER "Wyświetl mody, które pochodzą ze starszego systemu warsztatów. Te mody nie są użyteczne, dopóki oryginalny autor nie zaktualizuje ich do nowego systemu."
 IDS_MODMGR_FILTER_DATASET_ROLLOVER "Wyświetl mody, które udostępniają własny zestaw danych. Modów tych nie można aktywować w tradycyjnym znaczeniu i należy je wyraźnie wybrać podczas tworzenia gry."
 IDS_MODMGR_FILTER_TEXT "Filtruj mody na podstawie tytułu. To nie rozróżnia wielkości liter i będzie filtrować mody niezależnie od innych ustawień filtra."
+
 //
 // Mod Manager Downloading (shown during initial game startup)
 //
@@ -13565,7 +13565,6 @@ IDS_LOBBY_BROWSER_GAME_LIST_COLUMN_LABEL_GAME_NAME "Nazwa gry"
 IDS_LOBBY_BROWSER_GAME_LIST_COLUMN_LABEL_DATA_SET "D/S"
 IDS_LOBBY_BROWSER_GAME_LIST_COLUMN_LABEL_PLAYER_COUNT "Gracze"
 IDS_LOBBY_BROWSER_GAME_LIST_COLUMN_LABEL_RANK_TYPE "Rankingowa"
-
 IDS_MPS_VERSION_COLUMN_LABEL "Ver"
 IDS_MPS_SCENARIO_COLUMN_LABEL "Scnr"
 IDS_MPS_NO_START_ONE_SCENARIO_PLAYER "Nie można rozpocząć gry z jednym logicznym graczem scenariusza."
@@ -14225,7 +14224,7 @@ SPECIALMAP_JUNGLELANES_ROLLOVER "Zaczyna się od bliskich bitew na środku mapy,
 69006	"Majapahit Settlers"
 69007	"Majapahit Settlers"
 69008	"1. Your population limit is restricted to 150.\n\n2. Once one of your colonies builds a market they will start sending you resources.\n\n3. Sending wood and food to your colonies will help them grow faster.\n\n4. If a colony is destroyed they will try to send more colonists later on.\n\n5. Because of the restricted population limit and resources available it is a good idea to rely on fortifications to defend your islands against enemy ships.\n\n6. The Sunda will not go on the offensive unless you attack them first or expand into their territory. That is why instead of destroying them immediately you can choose to expand oversea first."
-69009	"Your scouts report:\n\n- The Majapahit (Red) control the eastern half of the island of Java, while Sunda (Blue) controls the western half. They will not attack us unless we provoke them but it might be in our interest to assert control over the island before expanding to the other islands. Sunda will train Skirmishers and Knights.\n\n- Our colonies (Cyan, Purple, Grey and Orange) will start colonizing Bali, Sulawesi, and Borneo. These islands are to the east and north of our island and are rich in resources.\n\n- West of Java, on the island of Sumatra, lies the kingdom of Dharmasraya (Green). The kingdom wields a strong force of Swordsmen, Crossbowmen, Ballista Elephants, Galleons, and Fire Ships. Dharmasraya is the most likely to regularly attack us.\n\n- To the north lies Malaysia, part of the Asian continent. Here the Tumasik have broken free from their former overlords and have built the mighty city of Singapore. They compete with us over the control of the sparsely inhabited islands which we are trying to colonize. They focus on destroying our colonies before attacking our home island. The Tumasik will train Arbalesters, Champions, Cavaliers, Bombard Cannons, Galleons, Demolition Ships, and Cannon Galleons."
+69009	"Your scouts report:\n\n- The Majapahit (Red) control the eastern half of the island of Java, while Sunda (Yellow) controls the western half. They will not attack us unless we provoke them but it might be in our interest to assert control over the island before expanding to the other islands. Sunda will train Skirmishers and Knights.\n\n- Our colonies (Cyan, Purple, Grey and Orange) will start colonizing Bali, Sulawesi, and Borneo. These islands are to the east and north of our island and are rich in resources.\n\n- West of Java, on the island of Sumatra, lies the kingdom of Dharmasraya (Green). The kingdom wields a strong force of Swordsmen, Crossbowmen, Ballista Elephants, Galleons, and Fire Ships. Dharmasraya is the most likely to regularly attack us.\n\n- To the north lies Malaysia, part of the Asian continent. Here the Tumasik (Blue) have broken free from their former overlords and have built the mighty city of Singapore. They compete with us over the control of the sparsely inhabited islands which we are trying to colonize. They focus on destroying our colonies before attacking our home island. The Tumasik will train Arbalesters, Champions, Cavaliers, Bombard Cannons, Galleons, Demolition Ships, and Cannon Galleons."
 69010	"<RED>Majapahit Official: Our villagers are setting up a colony on Bali."
 69011	"<RED>Majapahit Official: Settlers have arrived in Sulawesi."
 69012	"<RED>Majapahit Official: Majapahit people are trying to set up a colony in southern Borneo."
@@ -14795,7 +14794,7 @@ SPECIALMAP_JUNGLELANES_ROLLOVER "Zaczyna się od bliskich bitew na środku mapy,
 70704	"Nghe An"
 70705	"Wang Tong"
 70708	"1. Le Loi and his rebels can support a population of 200.\n\n2. It will take some time to gather enough resources to support all three Dai Viet bases. \n\n3. Losing one of the three bases is not the end of the world - as long as the Vietnamese rebels can take Nghe An and defeat Wang Tong in the field, the rebellion can succeed. \n\n4. The Chinese general Wang Tong relies heavily on supplies and reinforcements arriving from China. You should try to intercept as many as you can so that he does not become too strong."
-70709	"Your scouts report:\n\nLe Loi has sent his Vietnamese commanders (Yellow) to three different locations:\n\n- To the north, Le Trien, the champion of the Vietnamese rebels, has orders to intercept Ming reinforcements arriving from China.\n\n- To the east, Dinh Le, commander of the rebel cavalry, is preparing to lay siege to Nghe An.\n\n- To the west, the wise Bui Bi and master marksman Luu Nhan Chu are to secure the rich rice fields while dealing with the Ai Lao people if needed and perhaps attacking Nghe An from the west.\n\n\n- The city of Nghe An (Cyan) is situated to the south and is vital to the Ming dominance of the region. Its defenders rely on its strong fortifications and have stored gunpowder in the city, allowing them access to advanced units such as Bombard Cannons and Hand Cannoneers.\n\n- General Wang Tong (Purple) has a camp to the northeast. He can field an army of Cavaliers, Chu Ko Nu, Elite Skirmishers, and Halberdiers, but only has limited resources and so relies primarily on Ming reinforcements (Blue) from China.\n\n- The people of Ai Lao (Grey) are not directly involved in the conflict, but they do have something to gain from the situation. If given the opporunity, they will turn on Le Loi. They field an army of Battle Elephants and infantry."
+70709	"Your scouts report:\n\nLe Loi has sent his Vietnamese commanders (Yellow) to three different locations:\n\n- To the north, Le Trien, the champion of the Vietnamese rebels, has orders to intercept Ming reinforcements arriving from China.\n\n- To the east, Dinh Le, commander of the rebel cavalry, prepares to lay siege to Nghe An.\n\n- To the west, the wise Bui Bi and master marksman Luu Nhan Chu are to secure the rich rice fields, dealing with the Ai Lao people if necessary and then perhaps attack Nghe An from the west.\n\n\n- The city of Nghe An (Cyan) is situated to the south and is vital to the Ming dominance of the region. Its defenders rely on its strong fortifications and have stored gunpowder in the city, allowing them access to advanced units such as Bombard Cannons and Hand Cannoneers.\n\n- General Wang Tong (Purple) has a camp to the northeast. He can field an army of Cavaliers, Chu Ko Nu, Elite Skirmishers, and Halberdiers, but only has limited resources and relies primarily on Ming reinforcements (Blue) from China.\n\n- The people of Ai Lao (Green) are not directly involved in the conflict, but they do have something to gain from the situation. If given the opporunity, they will turn on Le Loi. They field an army of Battle Elephants and infantry."
 70710	"<YELLOW>Vietnamese Soldier: General, if we prevent the Ming reinforcements from reaching Wang Tong, our troops to the south can take Nghe An."
 70711	"<YELLOW>Le Trien: The Ming will learn to fear Le Trien's skills on the battlefield."
 70712	"<YELLOW>Luu Nhan Chu: My bolts never miss their mark."
@@ -15054,7 +15053,7 @@ UNRANKED_VIA_RESOURCES "Your ELO score has not changed. Too high starting resour
 106234 "Yabgu Shahmalik"
 
 120181 "Cywilizacja piechoty i kawalerii \n\n• Ulepszenia linii milicji za darmo \n• Centra miejskie kosztują -50% kamienia\n• Może budować Forty(mniejszy odpowiednik zamku) \n\n<b>Unikalna jednostka:<b> \nKonnik (kawaleria)\n\n<b>Unikalne technologie:<b> \n• Strzemiona (Lekka jazda i Konnicy atakują o 25% szybciej) \n• Bagaini (Linia milicji +5 pancerza) \n\n<b>Bonus drużynowy:<b> \nKuźnie pracują 50% szybciej"
-120182 "Cywilizacja konnych łuczników \n\n• Wieśniacy zbierają + 50% jedzenia ze zwierząt hodowlanych \n• Jednostki zadają + 25% obrażeń podczas walki na wzniesieniu \n• Pierścień, Taktyka Partów za darmo \n\n<b>Unikalne jednostki:<b> \nKeshik (jazda konna), Ognisty Wielbłąd (sabotażysta)\n\n<b>Unikalne technologie:<b> \n• Jedwabny Pancerz (Lekka kawaleria, lansjerzy stepowi i łucznicy konni otrzymują +1 pancerza) \n• Sztuka Oblężnicza Timurydów (Trebusze +2 zasięgu, pozwala szkolić Ogniste Wielbłądy)\n\n<b>Bonus drużynowy: <b> \ n Konni Łucznicy +2 zasięgu widzenia"
+120182 "Cywilizacja konnych łuczników \n\n• Wieśniacy zbierają + 50% jedzenia ze zwierząt hodowlanych \n• Jednostki zadają + 25% obrażeń podczas walki na wzniesieniu \n• Pierścień, Taktyka Partów za darmo \n\n<b>Unikalne jednostki:<b> \nKeshik (jazda konna), Ognisty Wielbłąd (sabotażysta)\n\n<b>Unikalne technologie:<b> \n• Jedwabny Pancerz (Lekka kawaleria, lansjerzy stepowi i łucznicy konni otrzymują +1 pancerza) \n• Sztuka Oblężnicza Timurydów (Trebusze +2 zasięgu, pozwala szkolić Ogniste Wielbłądy)\n\n<b>Bonus drużynowy: <b> \n Konni Łucznicy +2 zasięgu widzenia"
 120183 "Cywilizacja kawalerii \n\n• Dodatkowe centrum miasta można zbudować w wieku feudalnym \n• Warsztat oblężniczy i taran bitewny dostępne w wieku feudalnym; Ulepszenia taranów dostępne w wieku zamków\n• Kawaleria zyskuje 5% prędkości w każdym wieku (liczone od wieku feudalnego) \n\n<b>Unikalna jednostka:<b> \nKipczak (konny łucznik)\n\n<b>Unikalne technologie:<b> \n• Hodowle stepowe (Lekka kawaleria, lansjerzy stepów i konni łucznicy rekrutują się o 50% szybciej) \n• Kumańscy Najemnicy (członkowie zespołu mogą stworzyć 10 darmowych elitarnych Kipczaków w zamku)\n\n<b>Bonus drużynowy:<b> \nPalisady +50% wytrzymałości"
 120184 "Cywilizacja kawalerii i mnichów \n\n• Zaczyna z +150 jedzenia \n• Włócznicy i oszczepnicy poruszają się o 10% szybciej\n• Każdy garnizonowy relikt daje +1 do ataku Rycerzom i Leitisom (maksymalnie +4) \n\n<b>Unikalna jednostka:<b> \nLeitis (kawaleria)\n\n<b>Unikalne technologie:<b> \n• Forty na wzgórzach (centra miast +3 zasięgu ataku) \n• Wieżowe Tarcze (Włócznicy i oszczepnicy +1 pancerza)\n\n<b>Bonus drużynowy:<b> \nKlasztory pracują 20% szybciej"
 
@@ -15551,7 +15550,9 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 98871 "Kliknij, aby włączyć skróty modyfikujące wybór. Modyfikatory wyboru pozwalają wybrać określone typy jednostek. CTRL wybiera tylko jednostki wojskowe, podczas gdy ALT wybiera tylko jednostki cywilne, SHIFT wybierze zarówno jednostki cywilne, jak i wojskowe."
 98872 "Kliknij, aby włączyć informacje po najechaniu. Informacje po najechaniu pokażą szczegóły dotyczące obiektu po najechaniu na niego kursorem. Informacje zostaną wyświetlone w obszarze stanu obiektu, tak jakby obiekt został wybrany."
 98873 "Kliknij, aby włączyć opcję Shift Group Appending. Umożliwi to wybranie i połączenie wielu grup w jedną grupę kontrolną."
-98876 "Kliknij, aby określić kolor, który będzie używany dla siatki terenu."
+98876 "Click to specify the color and opacity to be used for the terrain grid. Terrain Grid visibility is controlled by the \"Terrain Grid Display\" option in Game Options. When Transparent, the grid cannot be toggled on or off using the \"Toggle Visual Grid\" hotkey."
+// 98876 "Kliknij, aby określić kolor, który będzie używany dla siatki terenu."
+98877 "Click to enable preview icons for buildings, units and technologies which will only become available when certain conditions, such as advancing through ages, are met."
 99151 "Kliknij, aby ustawić swój status głosowania, aby czekać."
 99153 "Kliknij, aby rozpocząć głosowanie z innymi graczami, aby zapisać i wyjść z gry, aby można było wznowić ją później."
 99202 "Graj z lub przeciwko graczom komputerowym, wznawiaj zapisane gry, oglądaj nagrane gry lub graj w historyczne kampanie."
@@ -16402,7 +16403,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 // 09-7 - Kyoto
 
 209701 "The ships slide through a mirror-flat ocean stained red with spring seaweed.  Columns of rock improbably draped with pine trees tower out of the mist.  The men on the ships watch silently as the samurai prowl the deck above.  They will make land near Kyoto and their lord, Hideyoshi, will lead the siege of the city of ten-thousand shrines."
-209702 "Within Kyoto, rebels hold prisoner Lord Nobunaga--the man who would unify Japan. The islands of Japan remain a patchwork of bickering samurai warlords who still settle conflicts with ritualized duels.  Nobunaga seeks to forge a single Japan, dragging the provincial samurai into the modern Wiek."
+209702 "Within Kyoto, rebels hold prisoner Lord Nobunaga--the man who would unify Japan. The islands of Japan remain a patchwork of bickering samurai warlords who still settle conflicts with ritualized duels.  Nobunaga seeks to forge a single Japan, dragging the provincial samurai into the modern era."
 209703 "Like his master Nobunaga, Hideyoshi wins his battles by volleys of muskets, fully exploiting the firearms recently introduced by Portuguese sailors. Hideyoshi intends no bargaining--he will demand once for Nobunaga's release, and then storm the city."
 209751 "Kyoto paid dearly for Nobunaga's death, and in the end, Hideyoshi was able to accomplish what his mentor could not--by 1590, Japan was a unified country.  Great though it was, this accomplishment did not satisfy Hideyoshi, who then set about on an ambitious plan to conquer China and Korea."
 209752 "Japan was not free of conflict, as civil wars continued to rise and fall for many years.  However, the Ieyasu family, former allies of Hideyoshi, continued to rule Japan as Shoguns until the 19th century."
@@ -16748,7 +16749,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 216505 "This will be the decisive battle of this war. If Kurikara falls, the Taira will be free to flood into the Minamoto heartland and claim victory. If Kurikara holds and the Taira are defeated, the tide will turn and Minamoto may even be able to bring the fight to the gates of Kyoto."
 216551 "Thunder boomed as spears of lightning pierced the sky. Driven back from the walls of Kurikara, the Taira army retreated in panic as Minamoto claimed victory after victory. Smoke rose from the enemy camps and floated towards Kyoto, an ominous shadow of the doom approaching those inside the city."
 216552 "Offering thanks and prayers to the gods, Minamoto halted and made camp outside Kyoto. Siege engines pounded the walls for days, reducing its great castles to piles of rubble. As the main gate fell, samurai poured into the city while Minamoto strode triumphantly to the Imperial Palace and planted his banner."
-216553 "With the power of the Taira broken and their capital taken, a seemingly doomed rebellion had triumphed. It would take two more long years, but Minamoto's prowess as a commander ensured victory at the battle of Dan-no-ura, ending the Genpei War and ushering in the new Wiek of the Kamakura Shogunate."
+216553 "With the power of the Taira broken and their capital taken, a seemingly doomed rebellion had triumphed. It would take two more long years, but Minamoto's prowess as a commander ensured victory at the battle of Dan-no-ura, ending the Genpei War and ushering in the new era of the Kamakura Shogunate."
 
 // 16-6 - Langshan
 
@@ -17344,7 +17345,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 228702 "When fielding your army, Sun Tzu says: ‘Whether to concentrate or to divide your troops, must be decided by circumstances.’"
 228703 "Use fast forces against slow ones, use feigned retreats to lure your enemies into ambushes, and split your army to flank your enemy. This is what Sun Tzu teaches us. Do you understand this lesson? If so, take command of your army and show me that you do."
 
-228801 "Sun Tzu stresses balance, but a commander will not always have his two feet on solid ground! Sometimes, he must set sail to achieve victory. Rivers must be navigated to open new trade routes, and oceans must be crossed to make new discoveries. But what if your opponent has also brought ships to sea?"
+228801 "Sun Tzu stresses balance, but a commander will not always have his two feet on solid ground! Sometimes, he must set sail to achieve victory. Rivers must be navigated to open new trade routes, and oceans must be crossed to make new discoveries. But what if your opponent also has brought ships to sea?"
 228802 "Sun Tzu teaches us: ‘The onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms deep.’"
 228803 "You are not water-shy, are you? Good! The captains of your fleet are awaiting your orders!"
 
@@ -17413,7 +17414,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 300057 "Zostałeś zaproszony\ndo gry."
 300058 "Widok"
 300059 "Prośby o dołączenie do klanu"
-300060 "Włączono grę międzyplatformową: obecnie możesz dopasowywać graczy z innych platform. \ n Możesz wyłączyć tę funkcję na ekranie Opcje na karcie Gra."
+300060 "Włączono grę międzyplatformową: obecnie możesz dopasowywać graczy z innych platform. \n Możesz wyłączyć tę funkcję na ekranie Opcje na karcie Gra."
 300061 "Zgłoś"
 300062 "Członkowie"
 300063 "Wywoływacze"
@@ -17499,10 +17500,10 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 300132 "Obrażenia"
 
 300133 "Etykietki menu"
-300134 "Wybierz, aby gra odczytywała informacje wyświetlane w podpowiedziach dotyczących pozycji menu. Informacja podpowiedzi zostanie odczytana po przeczytaniu dowolnego tekstu, jeśli \ "Narracja menu \" jest włączona."
+300134 "Wybierz, aby gra odczytywała informacje wyświetlane w podpowiedziach dotyczących pozycji menu. Informacja podpowiedzi zostanie odczytana po przeczytaniu dowolnego tekstu, jeśli \"Narracja menu\" jest włączona."
 
 300135 "Podpowiedzi do gry"
-300136 "Wybierz, aby gra odczytywała informacje wyświetlane w etykietach narzędzi dotyczących elementów gry. Obejmują one również informacje panelu sterowania. Informacje o podpowiedziach będą odczytywane po przeczytaniu dowolnego tekstu, jeśli włączona jest opcja „Narracja gry”."
+300136 "Wybierz, aby gra odczytywała informacje wyświetlane w etykietach narzędzi dotyczących elementów gry. Obejmują one również informacje panelu sterowania. Informacje o podpowiedziach będą odczytywane po przeczytaniu dowolnego tekstu, jeśli opcja \"Narracja gry\" jest włączona."
 
 300137 "Kliknij, aby zwinąć ten panel i wyświetlić drzewo technologii na pełnym ekranie."
 300138 "Kliknij, aby poruszać się po drzewie technologii."
@@ -17699,7 +17700,6 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Wąskie rzeki płyną zgodnie, tworząc wy
 300287 "Otwórz i przeczytaj ten news."
 
 300288 "Zmień tryby kolorów, aby zmienić kolory odtwarzacza na kolory, które powinny kontrastować ze sobą i na minimapie lepiej niż kolory standardowe.\nKoloray dla Deuteranopia i Protanopia - niebieski dla gracza, jasnoniebieski dla sojusznika, żółty dla wroga i szary dla neutralnego. W trybie Tritanopia kolory w trybie znajomego / wroga to czerwony dla gracza, różowy dla sojusznika, żółty dla wroga i szary dla neutralnego."
-
 
 300289 "Czat\nKliknij, aby wyświetlić okno dialogowe czatu."
 
@@ -17987,6 +17987,7 @@ IDS_MATCHMAKING_BENCHMARK_NOTIFY_1V1_ONLY "* Twój obecny wynik wydajności w wy
 300574 "Zablokowany"
 300575 "Wyciszony"
 300576 "Ikony gracza"
+300577 "Skirmish"
 
 
 IDS_OPTIONS_GAMESPEED "Prędkość gry"
@@ -18185,7 +18186,10 @@ IDS_LOBBY_FILE_TRANSFER_CONFIRM_DISABLE_NOTIFICATION	"* To ostrzeżenie można w
 IDS_LOBBY_FILE_TRANSFER_CONFIRM_RESTORE "Aby wziąć udział w tym lobby, musisz pobrać plik przywracania z hosta."
 
 IDS_LOBBY_FILE_TRANSFER_CHAT_NOTIFICATION	"* Host konfiguruje ustawienia lobby, które mogą wymagać transferu plików *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_HOST_NOTIFICATION_B	"* The transfer will begin when you ready up *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_CLIENT_NOTIFICATION_A	"* The Host is configuring lobby settings which may require a file transfer *"
 IDS_LOBBY_FILE_TRANSFER_CHAT_NOTIFICATION_RESTORE	"* To lobby przywracania i wymaga transferu plików *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_NOTIFICATION_RESTORE	"* This is a restore lobby and will require a file transfer *"
 
 IDS_LOBBY_MSIXVC_LAN_WARNING_P1	"* Masz problemy z hostowaniem gry LAN? *"
 IDS_LOBBY_MSIXVC_LAN_WARNING_P2	"* Odwiedź https://www.ageofempires.com/support/aoe2/#lan-issues aby uzyskać pomoc. *"
@@ -18221,8 +18225,7 @@ IDS_FEATURE_UNAVAILABLE "Przepraszamy, ta funkcja jest obecnie niedostępna."
 IDS_HOTKEY_WARNING_1 "Ostrzeżenie: klawisz"
 IDS_HOTKEY_WARNING_2 "używa tego samego skrótu"
 
-IDS_POPUP_LOBBY_KICK_FREE_PLAYERS "Zostałeś usunięty z lobby z powodu zablokowanej zawartości. Kup pełną grę, aby grać z treściami niestandardowymi w trybie wieloosobowym."
-IDS_POPUP_LOBBY_KICK_PLAYER_CONFIRM "Czy na pewno chcesz wyrzucić tego gracza??"
+IDS_POPUP_LOBBY_KICK_PLAYER_CONFIRM "Czy na pewno chcesz wyrzucić tego gracza?"
 IDS_POPUP_LOBBY_KICKED "Zostałeś wyrzucony z lobby. Poczekaj 60 sekund, aby spróbować ponownie"
 
 IDS_PROFILE_RANK_NO_RANK "Bez Rangi"
@@ -18350,12 +18353,12 @@ IDS_POPUP_MIN_SPEC_HARDWARE_CONTINUE_ANYWAY "Kontynuuj"
 IDS_POPUP_MIN_SPEC_HARDWARE_EXIT_GAME "Wyjście"
 
 IDS_LEADERBOARD_RANKED_WARNING_RANDOM_MAP "Jeszcze nie sklasyfikowany!\n\nRozegraj jeszcze %d gier rankingowych 1v1 w trybie mapy losowej aby osiągnąć rangę"
-IDS_LEADERBOARD_RANKED_WARNING_DEATH_MATCH "Jeszcze nie sklasyfikowany!\n\Rozegraj jeszcze %d gier rankingowych 1v1 w trybie Deathmatch aby osiągnąć rangę"
-IDS_LEADERBOARD_RANKED_WARNING_TEAM_RANDOM_MAP "Jeszcze nie sklasyfikowany!\n\Rozegraj jeszcze %d gier rankingowych 2v2, 3v3, lub 4v4  w trybie mapy losowej aby osiągnąć rangę"
-IDS_LEADERBOARD_RANKED_WARNING_TEAM_DEATH_MATCH "Jeszcze nie sklasyfikowany!\n\Rozegraj jeszcze %d gier rankingowych 2v2, 3v3, lub 4v4 w trybie Deathmatch aby osiągnąć rangę"
-IDS_ACHIEVEMENT_SCREEN_FEUDAL_AGE "Wiek\nFeudalny"
-IDS_ACHIEVEMENT_SCREEN_CASTLE_AGE "Wiek\nZamków"
-IDS_ACHIEVEMENT_SCREEN_IMPERIAL_AGE "Wiek\nImperiów"
+IDS_LEADERBOARD_RANKED_WARNING_DEATH_MATCH "Jeszcze nie sklasyfikowany!\n\nRozegraj jeszcze %d gier rankingowych 1v1 w trybie Deathmatch aby osiągnąć rangę"
+IDS_LEADERBOARD_RANKED_WARNING_TEAM_RANDOM_MAP "Jeszcze nie sklasyfikowany!\n\nRozegraj jeszcze %d gier rankingowych 2v2, 3v3, lub 4v4  w trybie mapy losowej aby osiągnąć rangę"
+IDS_LEADERBOARD_RANKED_WARNING_TEAM_DEATH_MATCH "Jeszcze nie sklasyfikowany!\n\nRozegraj jeszcze %d gier rankingowych 2v2, 3v3, lub 4v4 w trybie Deathmatch aby osiągnąć rangę"
+IDS_ACHIEVEMENT_SCREEN_FEUDAL_AGE "Feudal\nAge"
+IDS_ACHIEVEMENT_SCREEN_CASTLE_AGE "Castle\nAge"
+IDS_ACHIEVEMENT_SCREEN_IMPERIAL_AGE "Imperial\nAge"
 
 
 IDS_NEW_NO_NEWS_BODY "Brak dostępnych wiadomości"
@@ -18374,13 +18377,11 @@ IDS_MATCHMAKING_MAP_SELECTION_UNAVAILABLE "(Bany map niedostępne w grze 4v4)"
 IDS_MATCHMAKING_MAP_GAME_SETTINGS "Ustawienia gry:"
 IDS_MATCHMAKING_MAP_WAIT_FOR_HOST "Oczekiwanie na gospodarza..."
 IDS_MATCHMAKING_PLAYER_V_PLAYER "%dv%d"
-
-IDS_SLP_LOAD_ERROR "System próbował załadować plik sformatowany jako .slp, który nie jest obsługiwany w AOE2DE; jest to najprawdopodobniej spowodowane przez mod.\nUwaga dla autorów modów: Pliki SLP muszą zostać całkowicie zregenerowane jako SMX. Zmiana rozszerzeń istniejących plików .slp na \ ". Smx \" nie będzie miała wpływu na dane w samym pliku."
+IDS_SLP_LOAD_ERROR "System próbował załadować plik sformatowany jako .slp, który nie jest obsługiwany w AOE2DE; jest to najprawdopodobniej spowodowane przez mod.\nUwaga dla autorów modów: Pliki SLP muszą zostać całkowicie zregenerowane jako SMX. Zmiana rozszerzeń istniejących plików .slp na \".smx\" nie będzie miała wpływu na dane w samym pliku."
 IDS_INVAL_ASSET_LOAD_ERROR "System próbował załadować niepoprawnie sformatowany zasób; niektóre zasoby nie będą wyświetlane."
 IDS_INVAL_ASSET_ID_MSG "Próbowano załadować zasób jako: %s"
 
 IDS_FIREWALL_BLOCK_LAN "Zapora sieciowa może blokować funkcje sieci LAN. Dostosuj ustawienia zapory i spróbuj ponownie."
-
 IDS_MATCHMAKING_PARTY_HOST "Lider Drużyny"
 IDS_LOBBYBROWSER_RANKED_GAME "Gra Rankingowa"
 
@@ -18390,13 +18391,11 @@ IDS_BROWSE_MODS_HEADING_DATE_CREATED "Data Utworzenia"
 IDS_MODMANAGER_FILE_SIZE_FEILD "Rozmiar: %s"
 
 IDS_EVENT_COMEBACK_TOMORROW "Wróć jutro!"
-
 IDS_LOBBYBROWSER_PASSWORD_CHECK "Hasło"
 IDS_MODMAN_UPDATE_CHECK "Sprawdź aktualizacje"
 IDS_MODMAN_UPDATE_CHECKING "Sprawdzanie aktualizacji..."
 
 IDS_MODMAN_TAGS	"Tagi:"
-
 IDS_MATCHMAKING_JOINING_PARTY "Dołączanie do drużyny.."
 IDS_MATCHMAKING_JOINING_PARTY_FAILED "Nie można dołączyć do drużyny."
 IDS_MATCHMAKING_CREATING_PARTY_FAILED "Nie można utworzyć drużyny."
@@ -18405,7 +18404,6 @@ IDS_CREATE_GAME_DATA_SET_WARNING "Próbujesz utworzyć lobby z prywatnym zestawe
 
 IDS_PUBLISH_VISIBLIY_HELP_TEXT "Ustaw widoczność opublikowanego moda. Publiczny: każdy może znaleźć i subskrybować twój mod. Niepubliczny: nie można go znaleźć w przeglądarce modów, ale może go subskrybować każdy, kto zostanie poproszony o subskrypcję. Prywatne: nie może być widoczne ani subskrybowane przez nikogo oprócz autora."
 IDS_PUBLISH_VISIBLIY_WARNING "Ostrzeżenie o zmianie tego modu z publicznego / niepublicznego na prywatny wpłynie na użytkowników, którzy subskrybują twój mod"
-
 IDS_LOBBYBROWSER_CROSSPLAY_DISABLED "Gra międzyplatformowa wyłączona: obecnie nie można dopasować graczy z innych sieci lub graczy, którzy mają włączoną funkcję krzyżowania. Nadal można zapraszać znajomych do swojego lobby, jeśli mają włączoną funkcję krzyżowania. Możesz włączyć tę funkcję na ekranie Opcje w zakładce Gra."
 
 IDS_MODMNGER_REPORT_MOD_TITLE "Zgłoś modyfikacje"
@@ -18537,7 +18535,6 @@ IDS_MATCHMAKING_MAP_AVAILABLE_IN_TEAM "Ta mapa jest dostępna tylko w grach zesp
 IDS_NEXT_DAILY_CHALLENGE_REWARD "Następne codzienne wyzwanie (odblokowane o 8:00 GMT)"
 IDS_LOBBYBROWSER_TREATY "Traktat:"
 IDS_SPECTATOR_CAUGHT_UP "Przyłapany na rozgrywce na żywo."
-
 IDS_LOBBYBROWSER_PASSWORD_FILTER_HELP_TEXT "Filtruj lobby według tego, czy są chronione hasłem. Zaznacz, aby wyświetlać tylko lobby, które mają hasło. Przejdź, aby wyświetlić tylko lobby, które nie mają hasła."
 
 IDS_LOBBY_BROWSER_FILTER_SERVER "Serwer:"
