@@ -181,7 +181,7 @@
 3045 "Kliknij na dane miejsce, by tam uderzyć."
 3046 "Osiągnąłeś maksymalny limit populacji. Niemożliwe jest stworzenie większej ilości jednostek"
 3047 "Za mało wiary, by nawrócić."
-3048 "Ta jednostka nie może zostać nawrócona."
+3048 "Ta jednostka nie może zostać nawrócona.test"
 3049 "Wymagane jest odpowiednie badanie, by nawracać budynki."
 3050 "Ten budynek nie może zostać nawrócony."
 3051 "Nie możesz umieścić garnizonu w tak uszkodzonym budynku."
